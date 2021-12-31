@@ -7,6 +7,15 @@ public class MonthTest {
 	private static final int[] MAX_DAYS = {31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
 	
 	public int getMaxDaysOfMonth(int mon) {
+//		switch(mon) {
+//		case 4,6,9,11 :
+//			return 30;
+//		case 2 : 
+//			return 28;
+//		default : 
+//			return 31;
+//		}
+		
 		return MAX_DAYS[mon-1];
 	}
 	
